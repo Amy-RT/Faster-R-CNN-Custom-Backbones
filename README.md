@@ -14,22 +14,22 @@ The aerial imagery presents the ‘small object detection problem’ ; items of 
 Custom Backbone 1: A combination of residual connections, convolutional block attention modules (CBAM) and a top-down feature pyramid network (FPN).
 
 **Custom Backbone 1 Architecture:** <br/>
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/9949eb53-9924-4431-9b19-db6f169b19fe" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/6c100542-2664-421c-817f-8402e410f7f8" />
 
 Custom Backbone 2: A biomimetic backbone that mimics the visual pathways in eagle ways. This backbone incorporates the Shallow and Deep Fovea Modules of EVMNet proposed by [Chen et Lin](https://www.sciencedirect.com/science/article/abs/pii/S1051200424005815). The Fovea modules are combined with Convolutional block attention modules and a top-down feature pyramid network.
 
 **Custom Backbone 2 Architecture:**<br/>
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/7afb12bd-6104-4384-8152-00bd9dad77da" /> <br/>
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/9555cf19-911f-456d-95c0-ed1ee1970f8d" /> <br/>
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/c70c2afa-1db7-48c0-9ebc-e333d6f8be1e" /> <br/>
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/d01678c1-613d-4300-a3e6-787ac8893106" /> <br/>
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/14f73494-993c-474f-b015-817b205d65f5" /> <br/>
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/3fb9ab40-a47b-4aef-9c6a-e5047d739d12" /> <br/>
 
 
 The biomimetic backbone outperformed custom backbone 1; this backbone has been placed in a demo notebook for inference sampling.
 Model weights ‘.pth’ file: https://drive.google.com/file/d/1-doWl6zGmP-aPTNoFe-_q2i1w0J16eWF/view?usp=drive_link
 
 A sample prediction from the Faster R-CNN + biomimetic backbone can be seen below: <br/>
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/3a63cfa2-5e8b-4838-98eb-3e18b62d0292" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/bb93c2e3-5146-4a7d-809c-b89b2ae1f660" />
 
 **Model Results:**<br/>
 I fine-tuned YOLOv12 and ResNet50 Faster R-CNN on the chosen dataset to define a benchmark:
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/d4db6c57-82c4-4f60-8593-acf9216e4996" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/51db980f-9f95-4672-82d4-fff9a424bbf7"/>
