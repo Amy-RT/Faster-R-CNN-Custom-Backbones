@@ -1,0 +1,25 @@
+annotated-types @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/annotated-types_1728588668736/work
+anyio @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/anyio_1731706914135/work
+fastapi @ file:///Users/builder/cbouss/buildout/croot/fastapi_1735845578390/work
+filelock==3.18.0
+fsspec==2025.3.0
+idna @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/idna_1728585920859/work
+Jinja2==3.1.6
+lightning-utilities==0.11.8
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.4.2
+numpy==2.2.4
+pillow==11.1.0
+pydantic @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4blmh3bau_/croot/pydantic_1734736077970/work
+pydantic_core @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_bdqco4zmod/croot/pydantic-core_1734726070262/work
+setuptools==75.8.0
+sniffio @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/sniffio_1728586434087/work
+starlette @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/starlette-recipe_1731713242620/work
+sympy==1.13.1
+torch==2.6.0
+torchaudio==2.6.0
+torchmetrics==1.6.0
+torchvision==0.21.0
+typing_extensions @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0b3jpv_f79/croot/typing_extensions_1734714864260/work
+wheel==0.45.1
